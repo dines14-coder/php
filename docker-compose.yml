@@ -29,7 +29,7 @@ services:
 
   # --- PHP (Laravel App) ---
   laravel:
-    image: php:v4
+    image: dinesh14coder/cipl:php${BUILD_NUMBER}
     container_name: laravel-app
     ports:
       - "8085:80"
