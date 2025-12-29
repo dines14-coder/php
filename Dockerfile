@@ -1,6 +1,8 @@
 FROM php:8.3-apache
 
-WORKDIR /app/html
+WORKDIR /var/www/html
+
+RUN chown -R www-data:www-data /var/www/html
 
 RUN apt-get update && apt-get install -y \
     git \
@@ -18,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 RUN a2enmod rewrite
 
 # Copy Apache config
-RUN sed -i 's|/var/www/html|/app/html/public|g' /etc/apache2/sites-available/000-default.conf
+RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 COPY . .
