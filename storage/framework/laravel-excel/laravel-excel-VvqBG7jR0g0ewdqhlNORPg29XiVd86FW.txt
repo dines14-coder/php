@@ -1,0 +1,7 @@
+S.no,emp_id,emp_name,pan_no,dob,mobileno,email,type_of_leaving,last_working_date,f_f_document
+1,EMP001,Test1,1234567890,12-05-2000,1234567890,saranraj@hemas.in,Relieved,09-09-2022,Yes
+2,EMP002,Test2,1234567891,13-05-2000,1234567891,text2@gmail.com,Relieved,10-09-2022,Yes
+3,EMP003,Test3,1234567892,14-05-2000,1234567892,text13@gmail.com,Relieved,11-09-2022,Yes
+4,EMP004,Test4,1234567893,15-05-2000,1234567893,text4@gmail.com,Relieved,12-09-2022,Yes
+5,EMP005,Test5,1234567894,16-05-2000,1234567894,text5@gmail.com,Relieved,13-09-2022,Yes
+6,EMP006,Test6,1234567895,17-05-2000,1234567895,text6@gmail.com,Relieved,14-09-2022,Yes

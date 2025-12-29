@@ -1,0 +1,8 @@
+S.No,Date & Time,From Email ID,Subject,Internal/External,Responded (Y/N),Responded on Date & Time,Toexcl,To All,In Copy
+1,23-09-2022 07:38,sathishkalidas@cavinkare.com,gst,Internal,N,,,Y,N
+2,23-09-2022 11:09,sathishkalidas@cavinkare.com,Price Updation,Internal,N,,,Y,N
+3,23-09-2022 10:41,sathishkalidas@cavinkare.com,gst,Internal,N,,,Y,N
+4,,sathishkalidas@cavinkare.com,gst,Internal,N,,,Y,N
+5,23-09-2022 07:38,sathishkalidas@cavinkare.com,gst,Internal,N,23-09-2022 07:38,N,Y,N
+6,23-09-2022 11:09,sathishkalidas@cavinkare.com,Price Updation,Internal,N,23-09-2022 07:39,N,Y,N
+7,23-09-2022 10:41,sathishkalidas@cavinkare.com,gst,Internal,N,23-09-2022 07:40,N,Y,N

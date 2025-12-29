@@ -1,0 +1,2 @@
+S.no,emp_id,emp_name,pan_no,dob,mobileno,email,type_of_leaving,last_working_date
+,tes,tes,tes,2000-03-22,32154235,tes2@gmail.com,Abscond,2000-03-22

@@ -1,0 +1,7 @@
+S.no,emp_id,emp_name,pan_no,dob,mobileno,email,type_of_leaving,last_working_date,f_f_document
+1,EMP001,Test1,1234567890,2000-05-12,1234567890,text1@gmail.com,Relieved,2022-09-09,Yes
+2,EMP002,Test2,1234567891,2000-05-13,1234567891,text2@gmail.com,Relieved,2022-09-10,Yes
+3,EMP003,Test3,1234567892,2000-05-14,1234567892,text13@gmail.com,Relieved,2022-09-11,Yes
+4,EMP004,Test4,1234567893,2000-05-15,1234567893,text4@gmail.com,Relieved,2022-09-12,Yes
+5,EMP005,Test5,1234567894,2000-05-16,1234567894,text5@gmail.com,Relieved,2022-09-13,Yes
+6,EMP006,Test6,1234567895,2000-05-17,1234567895,text6@gmail.com,Relieved,2022-09-14,Yes

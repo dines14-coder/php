@@ -1,0 +1,6 @@
+S.no,emp_id,emp_name,pan_no,dob,mobileno,email,type_of_leaving,last_working_date,f_f_document
+1,12   345,tester 1,123456677,12-05-2000,9865123456,saranraj123456789@gmail.com,Relieved,11-07-2022,Yes
+2,12  346,tester 2,123456688,12-05-2000,9865123457,saranraj123456799@gmail.com,Relieved,11-07-2022,Yes
+3,123   47,tester 3,123456699,12-05-2000,9865123458,saranraj123456788@gmail.com,Relieved,11-07-2022,Yes
+4,12  348,tester 4,123456600,12-05-2000,9865123459,saranraj123456778@gmail.com,Relieved,11-07-2022,Yes
+5,   12  349,tester 5,123456611,12-05-2000,9865123450,saranraj123456767@gmail.com,Relieved,11-07-2022,Yes

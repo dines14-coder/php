@@ -1,0 +1,49 @@
+version: "3.9"
+
+services:
+  # --- Database: MySQL 8 ---
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: app_db
+      MYSQL_USER: app_user
+      MYSQL_PASSWORD: app_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    command:
+      #- "--default-authentication-plugin=mysql_native_password"
+      - "--character-set-server=utf8mb4"
+      - "--collation-server=utf8mb4_unicode_ci"
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u root -proot || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - laravel-net
+    restart: unless-stopped
+
+  # --- PHP (Laravel App) ---
+  laravel:
+    image: php:v4
+    container_name: laravel-app
+    ports:
+      - "8085:80"
+    env_file:
+      - ./.env
+    depends_on:
+      - mysql
+    networks:
+      - laravel-net
+    restart: unless-stopped
+
+networks:
+  laravel-net:
+
+volumes:
+  mysql-data:
+
